@@ -1,0 +1,19 @@
+{
+  "provider": "Netlify",
+  "project_id": "16637782-4e69-4d5e-9790-4327070c6440",
+  "deploy_id": "6ade4766eb6522b0ef5040a0",
+  "initial_project_slug": "animated-shortbread-dabc03",
+  "project_slug": "zhaocun-current",
+  "url": "https://zhaocun-current.netlify.app",
+  "repository": "https://github.com/cosmopolitan033/zhaocun-current",
+  "build_command": "npm run build",
+  "publish_directory": "dist",
+  "method": "manual zip upload",
+  "archive_sha256": "9ce4208abcfa656e26cb96288f4d0b4a45de9bd6f8c57964fe4b76c93f64d17e",
+  "visibility": "public",
+  "verified_http_status": 200,
+  "verified_bundle_assets": [
+    "/assets/index-Ch881n7X.js",
+    "/assets/index-tjAKn3fI.css"
+  ]
+}
