@@ -1,2 +1,14 @@
-// Edit personal text and links here. This is a creative-coding experiment.
-export const content={author:'zhaocun',title:'CURRENT',headline:['MAKE','WAVES.'],intro:'A living canvas. An open invitation. Move your cursor and see where curiosity takes you.',about:'I’m zhaocun. I build software, but I’m just as interested in how it feels. CURRENT is a personal exploration of color, movement and playful interfaces — where the visitor becomes part of the work.',source:'https://github.com/cosmopolitan033/zhaocun-current',portfolio:'https://zhaocun-portfolio.netlify.app',palettes:[{name:'Aurora',colors:['#3fead3','#4791ed','#ef5db5']},{name:'Ember',colors:['#ff593d','#ffb754','#deda62']},{name:'Ultraviolet',colors:['#6a63fd','#c360ef','#ee87ff']}]};
+// Personal copy, links and scene palettes. Keep edit-friendly content here.
+export const content = {
+  author: 'zhaocun', title: 'CURRENT', eyebrow: 'AN EXPERIMENT IN ESCAPE',
+  headline: ['CHASE THE', 'INFINITE.'],
+  intro: 'No destination. Just the feeling of moving forward.',
+  note: 'An imagined night drive, built from light, rhythm and a little curiosity. A personal exploration of immersive interfaces by zhaocun.',
+  source: 'https://github.com/cosmopolitan033/zhaocun-current/tree/codex/immersive-review-v2',
+  portfolio: 'https://zhaocun-portfolio.netlify.app',
+  worlds: [
+    { name: 'Neon dusk', accent: '#b7ffef', light: '#24ddff', second: '#ff338e', sun: '#ff7652', sky: '#090616' },
+    { name: 'Solar flare', accent: '#ffce81', light: '#ff4d17', second: '#ffd079', sun: '#ffcc69', sky: '#180808' },
+    { name: 'Blue hour', accent: '#b8c7ff', light: '#547aff', second: '#bb77ff', sun: '#83cfff', sky: '#050b19' }
+  ]
+};

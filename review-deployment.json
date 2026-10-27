@@ -1,0 +1,56 @@
+{
+  "provider": "Netlify",
+  "project_id": "39a37c93-1f20-45f4-ba86-617629149b41",
+  "deploy_id": "6ae05967d7b897db9b947cb5",
+  "initial_project_slug": "mellifluous-yeot-d75e80",
+  "project_slug": "zhaocun-showcase-review",
+  "url": "https://zhaocun-showcase-review.netlify.app/current/",
+  "purpose": "User review candidate; original portfolio and project production sites unchanged",
+  "deployment_method": "Netlify Drop ZIP",
+  "archive_sha256": "2768defc9dac08479bba35e725b25d5a8c61dc826bea8ca5c82eb479195ccf96",
+  "verified_assets": [
+    {
+      "path": "current/fonts/sans.css",
+      "sha256": "c4e5322103014a806e750d983af278b734acf80e48deff6baac83a23d768218a"
+    },
+    {
+      "path": "current/fonts/body.css",
+      "sha256": "7a6638d887d2c780c4ef283dace53705ca8be3e1ed9185178465490dd4dab06f"
+    },
+    {
+      "path": "current/assets/index-qXeBaoKO.js",
+      "sha256": "84136e0e81469860abac7f82d7d26b12fc773c315a85ec49365fd7b1b84e775b"
+    },
+    {
+      "path": "current/assets/index-Cs1WRzd5.css",
+      "sha256": "f60463bb526dfb80a004b1ca15c8e0cb1aa87b3221f18274deb8317644ff99cb"
+    },
+    {
+      "path": "forme/fonts/body.css",
+      "sha256": "7a6638d887d2c780c4ef283dace53705ca8be3e1ed9185178465490dd4dab06f"
+    },
+    {
+      "path": "forme/fonts/serif.css",
+      "sha256": "c0fe20f253523da8074dffb5845935cd2a5d6e9e888ecfb0edbdfdf9ef0efdd6"
+    },
+    {
+      "path": "forme/assets/index-kF168r1z.js",
+      "sha256": "8782b9649bbd78188956fbe560e376241ae1b6708b5d579d9379501a1d7af0d8"
+    },
+    {
+      "path": "forme/assets/index-DBVWQUoY.css",
+      "sha256": "f4f63d86c9e35a52e4baec3cfb8270a664dd797a5b57a1ed4495e008385cde7b"
+    }
+  ],
+  "checks": [
+    "production builds passed",
+    "desktop browser visual review",
+    "400px responsive visual review",
+    "shape and material switching",
+    "warp and atmosphere switching",
+    "pause controls",
+    "anonymous HTML/JS/CSS exact-match verification"
+  ],
+  "repository": "https://github.com/cosmopolitan033/zhaocun-current",
+  "branch": "codex/immersive-review-v2"
+}
