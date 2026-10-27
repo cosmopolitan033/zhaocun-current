@@ -5,7 +5,7 @@ export const content = {
   intro: 'Three routes. Your own pace. A little time away from everything else.',
   note: 'An imagined night drive, built from light, rhythm and a little curiosity. A personal exploration of immersive interfaces by zhaocun.',
   source: 'https://github.com/cosmopolitan033/zhaocun-current',
-  portfolio: 'https://zhaocun-portfolio.netlify.app',
+  portfolio: 'https://zhaocun.netlify.app',
   worlds: [
     { name: 'Neon dusk', accent: '#b7ffef', light: '#24ddff', second: '#ff338e', sun: '#ff7652', sky: '#090616' },
     { name: 'Solar flare', accent: '#ffce81', light: '#ff4d17', second: '#ffd079', sun: '#ffcc69', sky: '#180808' },

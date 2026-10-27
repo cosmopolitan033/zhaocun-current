@@ -1,7 +1,7 @@
 {
   "provider": "Netlify",
   "project_id": "16637782-4e69-4d5e-9790-4327070c6440",
-  "deploy_id": "6ae07a0179ac7ecb35370e33",
+  "deploy_id": "6ae08af501b982a75765ea9d",
   "initial_project_slug": "animated-shortbread-dabc03",
   "project_slug": "zhaocun-current",
   "url": "https://zhaocun-current.netlify.app",
@@ -9,17 +9,17 @@
   "build_command": "npm run build",
   "publish_directory": "dist",
   "method": "manual zip upload",
-  "archive_sha256": "924997e958e4d31b22b4c45b6a6565c76ab67f6e91b604cfe7673a953114276d",
+  "archive_sha256": "5fc23085987b3413c703a651b85a33ec421e92f14616dbc89f4650d6f485b912",
   "visibility": "public",
   "verified_http_status": 200,
   "verified_bundle_assets": [
-    "/assets/index-S1CQs9CS.js",
+    "/assets/index-DJoYgE2L.js",
     "/assets/index-QCM7a3Q9.css"
   ],
   "verified_assets": [
     {
-      "path": "/assets/index-S1CQs9CS.js",
-      "sha256": "b206ab018a430ed64eefc8697602ef1133773d798e20f96a05a6bb75315f0d04"
+      "path": "/assets/index-DJoYgE2L.js",
+      "sha256": "f9b45cdaba9db78f92d3e019347da68e7237531b2c86a038bb49f71ec7b67a1c"
     },
     {
       "path": "/assets/index-QCM7a3Q9.css",
@@ -38,8 +38,11 @@
     "Active time advances in immersive mode and stays constant while paused",
     "No horizontal overflow at mobile width",
     "Browser error log empty",
-    "Anonymous production JS and CSS exactly match local build"
+    "Anonymous production JS and CSS exactly match local build",
+    "Production bundle links to zhaocun.netlify.app without the old portfolio domain"
   ],
   "content_version": 3,
-  "published_date": "2026-10-27"
+  "published_date": "2026-10-27",
+  "portfolio_url": "https://zhaocun.netlify.app",
+  "domain_links_updated_date": "2026-10-27"
 }
