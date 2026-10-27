@@ -4,7 +4,7 @@ export const content = {
   headline: ['CHASE THE', 'INFINITE.'],
   intro: 'No destination. Just the feeling of moving forward.',
   note: 'An imagined night drive, built from light, rhythm and a little curiosity. A personal exploration of immersive interfaces by zhaocun.',
-  source: 'https://github.com/cosmopolitan033/zhaocun-current/tree/codex/immersive-review-v2',
+  source: 'https://github.com/cosmopolitan033/zhaocun-current',
   portfolio: 'https://zhaocun-portfolio.netlify.app',
   worlds: [
     { name: 'Neon dusk', accent: '#b7ffef', light: '#24ddff', second: '#ff338e', sun: '#ff7652', sky: '#090616' },

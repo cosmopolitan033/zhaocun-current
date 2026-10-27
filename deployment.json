@@ -1,7 +1,7 @@
 {
   "provider": "Netlify",
   "project_id": "16637782-4e69-4d5e-9790-4327070c6440",
-  "deploy_id": "6ade4766eb6522b0ef5040a0",
+  "deploy_id": "6ae07257cf8dde2013aa4aa3",
   "initial_project_slug": "animated-shortbread-dabc03",
   "project_slug": "zhaocun-current",
   "url": "https://zhaocun-current.netlify.app",
@@ -9,11 +9,29 @@
   "build_command": "npm run build",
   "publish_directory": "dist",
   "method": "manual zip upload",
-  "archive_sha256": "9ce4208abcfa656e26cb96288f4d0b4a45de9bd6f8c57964fe4b76c93f64d17e",
+  "archive_sha256": "8857983c0cdb2db7ea65d56a74e6041abe5cd4a8babb384a97d7bec6962b9f62",
   "visibility": "public",
   "verified_http_status": 200,
   "verified_bundle_assets": [
-    "/assets/index-Ch881n7X.js",
-    "/assets/index-tjAKn3fI.css"
+    "/assets/index-Cthmiifu.js",
+    "/assets/index-Cs1WRzd5.css"
+  ],
+  "verified_assets": [
+    {
+      "path": "/assets/index-Cthmiifu.js",
+      "sha256": "8493ece7bda1fe37bd136c96d5898e47b7c9fdde139ff7690204a4a52faac57b"
+    },
+    {
+      "path": "/assets/index-Cs1WRzd5.css",
+      "sha256": "f60463bb526dfb80a004b1ca15c8e0cb1aa87b3221f18274deb8317644ff99cb"
+    }
+  ],
+  "approved_version": 2,
+  "approval_date": "2026-10-27",
+  "source_branch": "main",
+  "checks": [
+    "production build passed",
+    "reviewed desktop/mobile and interactive controls",
+    "anonymous deployed JS and CSS exactly match production build"
   ]
 }

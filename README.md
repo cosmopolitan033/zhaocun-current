@@ -1,14 +1,14 @@
 # CURRENT — by zhaocun
 
-## Version 2 — review candidate
+## Version 2 — approved production experience
 
 A procedural neon night drive with recycled architecture, light trails, three atmospheres, bloom, cruise/warp modes and a distraction-free experience.
 
 Personal frontend design experiment. All sculptures and environments in this version are generated in code. No commercial clients, products or commissions are claimed.
 
-Production (previous approved version): https://zhaocun-current.netlify.app
+Live: https://zhaocun-current.netlify.app
 
-Review source: branch `codex/immersive-review-v2`. The review URL is recorded in `review-deployment.json` after upload. Production is unchanged pending review.
+The version 2 design was approved on 2026-10-27 and promoted to `main`. Production deployment details are recorded in `deployment.json`; `review-deployment.json` preserves the approved review snapshot.
 
 ## Run and edit
 

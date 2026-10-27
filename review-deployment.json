@@ -5,7 +5,7 @@
   "initial_project_slug": "mellifluous-yeot-d75e80",
   "project_slug": "zhaocun-showcase-review",
   "url": "https://zhaocun-showcase-review.netlify.app/current/",
-  "purpose": "User review candidate; original portfolio and project production sites unchanged",
+  "purpose": "Approved review snapshot, promoted to the existing production site and main branch on 2026-10-27",
   "deployment_method": "Netlify Drop ZIP",
   "archive_sha256": "2768defc9dac08479bba35e725b25d5a8c61dc826bea8ca5c82eb479195ccf96",
   "verified_assets": [
@@ -52,5 +52,6 @@
     "anonymous HTML/JS/CSS exact-match verification"
   ],
   "repository": "https://github.com/cosmopolitan033/zhaocun-current",
-  "branch": "codex/immersive-review-v2"
+  "branch": "codex/immersive-review-v2",
+  "approval_date": "2026-10-27"
 }
