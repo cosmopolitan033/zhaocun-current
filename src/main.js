@@ -1,4 +1,5 @@
 import './style.css';
+import { enrichCurrent } from './project.js';
 import * as THREE from 'three';
 import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
@@ -9,7 +10,7 @@ import { content as c } from './content.js';
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 document.querySelector('#app').innerHTML = `
 <div id="scene" aria-hidden="true"></div><div class="shade"></div><div class="grain"></div>
-<header><a class="brand" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h14L8 12h14L7 21l6-7H2l7-7H2Z" fill="currentColor"/></svg>${c.title}<sup>01</sup></a><span class="byline">A DIGITAL ESCAPE BY ${c.author.toUpperCase()}</span><a class="back" href="${c.portfolio}">BACK TO PORTFOLIO <span>↗</span></a></header>
+<header><a class="brand" href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h14L8 12h14L7 21l6-7H2l7-7H2Z" fill="currentColor"/></svg>${c.title}<sup>01</sup></a><nav class="project-nav" aria-label="Main navigation"><a href="#story">THE ROUTES</a><a href="#planner">YOUR DRIVE</a><a href="#guide">THE EXPERIENCE</a></nav><a class="back" href="${c.portfolio}">BACK TO PORTFOLIO <span>↗</span></a></header>
 <main><section class="hero"><div class="hero-copy"><p class="eyebrow"><i></i>${c.eyebrow}</p><h1>${c.headline[0]}<br><span>${c.headline[1]}</span></h1><p class="intro">${c.intro}</p><button class="enter" id="enter">ENTER THE CURRENT <span>↗</span></button></div><div class="coordinates"><span>EST. 2026</span><span>IMAGINATION / IN MOTION</span><span class="orbit-icon">✳</span></div><div class="hero-foot"><a href="#story">SCROLL TO GO DEEPER <span>↓</span></a><span>LIGHT. SPACE. VELOCITY.</span></div></section>
 <section class="story" id="story"><p class="eyebrow">01 / THE FEELING</p><h2>Somewhere between<br><em>here</em> and <em>what’s next.</em></h2><div class="story-bottom"><p>${c.note}</p><div><span class="label">TAKE THE WHEEL</span><p>Change the atmosphere.<br>Engage warp. Lose track of time.</p><a href="${c.source}" target="_blank" rel="noopener">EXPLORE THE SOURCE ↗</a></div></div><footer><span>© 2026 ${c.author} / PERSONAL DESIGN STUDY</span><a href="./credits.html">CREDITS ↗</a></footer></section></main>
 <aside class="deck" aria-label="Experience controls"><div class="worlds" aria-label="Atmosphere">${c.worlds.map((w,i)=>`<button data-world="${i}" aria-pressed="${i===0}"><span class="world-dot" style="--swatch:${w.light}"></span><span>${w.name}</span></button>`).join('')}</div><div class="drive"><button id="pause" aria-label="${reduced?'Play':'Pause'} motion">${reduced?'▶':'Ⅱ'}</button><button id="warp" aria-pressed="false"><span class="warp-icon">⏩</span><span id="warp-label">ENGAGE WARP</span></button><span class="velocity"><b id="speed">120</b><small>KM/H · SIMULATED</small></span></div></aside><button id="exit" hidden>EXIT EXPERIENCE <span>ESC ↗</span></button><div id="fallback" role="status" hidden>This experience needs WebGL. Try a browser with hardware acceleration enabled.</div>`;
@@ -28,6 +29,7 @@ addEventListener('blur',()=>boost(false));
 let setWorld=()=>{};
 document.querySelectorAll('[data-world]').forEach(b=>b.onclick=()=>{activeWorld=Number(b.dataset.world);document.querySelectorAll('[data-world]').forEach(x=>x.setAttribute('aria-pressed',x===b));setWorld(activeWorld);});
 
+enrichCurrent({getState:()=>({paused,focused}),setFocus:focus});
 try { startScene(); } catch(error) { $('#fallback').hidden=false; console.error(error); }
 function startScene(){
  const scene=new THREE.Scene();

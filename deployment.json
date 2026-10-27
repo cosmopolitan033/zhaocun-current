@@ -1,7 +1,7 @@
 {
   "provider": "Netlify",
   "project_id": "16637782-4e69-4d5e-9790-4327070c6440",
-  "deploy_id": "6ae07257cf8dde2013aa4aa3",
+  "deploy_id": "6ae07a0179ac7ecb35370e33",
   "initial_project_slug": "animated-shortbread-dabc03",
   "project_slug": "zhaocun-current",
   "url": "https://zhaocun-current.netlify.app",
@@ -9,29 +9,37 @@
   "build_command": "npm run build",
   "publish_directory": "dist",
   "method": "manual zip upload",
-  "archive_sha256": "8857983c0cdb2db7ea65d56a74e6041abe5cd4a8babb384a97d7bec6962b9f62",
+  "archive_sha256": "924997e958e4d31b22b4c45b6a6565c76ab67f6e91b604cfe7673a953114276d",
   "visibility": "public",
   "verified_http_status": 200,
   "verified_bundle_assets": [
-    "/assets/index-Cthmiifu.js",
-    "/assets/index-Cs1WRzd5.css"
+    "/assets/index-S1CQs9CS.js",
+    "/assets/index-QCM7a3Q9.css"
   ],
   "verified_assets": [
     {
-      "path": "/assets/index-Cthmiifu.js",
-      "sha256": "8493ece7bda1fe37bd136c96d5898e47b7c9fdde139ff7690204a4a52faac57b"
+      "path": "/assets/index-S1CQs9CS.js",
+      "sha256": "b206ab018a430ed64eefc8697602ef1133773d798e20f96a05a6bb75315f0d04"
     },
     {
-      "path": "/assets/index-Cs1WRzd5.css",
-      "sha256": "f60463bb526dfb80a004b1ca15c8e0cb1aa87b3221f18274deb8317644ff99cb"
+      "path": "/assets/index-QCM7a3Q9.css",
+      "sha256": "9a9a0a86f69934a293a793ef027fed1b436c590edad65fbd21105f520f70d202"
     }
   ],
   "approved_version": 2,
   "approval_date": "2026-10-27",
   "source_branch": "main",
   "checks": [
-    "production build passed",
-    "reviewed desktop/mobile and interactive controls",
-    "anonymous deployed JS and CSS exactly match production build"
-  ]
+    "Production build passed",
+    "git diff --check passed",
+    "Desktop and mobile 400px content layouts checked",
+    "Route selection updates live atmosphere and manifest",
+    "3/6/12 minute session selection works",
+    "Active time advances in immersive mode and stays constant while paused",
+    "No horizontal overflow at mobile width",
+    "Browser error log empty",
+    "Anonymous production JS and CSS exactly match local build"
+  ],
+  "content_version": 3,
+  "published_date": "2026-10-27"
 }

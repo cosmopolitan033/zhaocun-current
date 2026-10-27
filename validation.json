@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "date": "2026-10-27",
+  "checks": [
+    "Production build passed",
+    "git diff --check passed",
+    "Desktop and mobile 400px content layouts checked",
+    "Route selection updates live atmosphere and manifest",
+    "3/6/12 minute session selection works",
+    "Active time advances in immersive mode and stays constant while paused",
+    "No horizontal overflow at mobile width",
+    "Browser error log empty"
+  ],
+  "scope": "Independent project presentation; illustrative content clearly labelled"
+}

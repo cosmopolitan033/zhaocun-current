@@ -1,8 +1,8 @@
 // Personal copy, links and scene palettes. Keep edit-friendly content here.
 export const content = {
-  author: 'zhaocun', title: 'CURRENT', eyebrow: 'AN EXPERIMENT IN ESCAPE',
+  author: 'zhaocun', title: 'CURRENT', eyebrow: 'A DIGITAL DRIVING EXPERIENCE',
   headline: ['CHASE THE', 'INFINITE.'],
-  intro: 'No destination. Just the feeling of moving forward.',
+  intro: 'Three routes. Your own pace. A little time away from everything else.',
   note: 'An imagined night drive, built from light, rhythm and a little curiosity. A personal exploration of immersive interfaces by zhaocun.',
   source: 'https://github.com/cosmopolitan033/zhaocun-current',
   portfolio: 'https://zhaocun-portfolio.netlify.app',

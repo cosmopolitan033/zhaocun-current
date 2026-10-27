@@ -33,3 +33,13 @@ Three.js and its included rendering utilities — MIT. Fonts — SIL Open Font L
 ## Accessibility
 
 Controls have keyboard focus states and accessible names. Escape leaves immersive mode. Reduced-motion preference starts the animation paused. A readable fallback is shown if WebGL cannot initialize. Mobile layouts preserve normal scrolling until immersive mode is explicitly entered.
+
+## Product presentation — October 2026
+
+Three imagined routes. Your own pace. Choose an atmosphere, plan a timed session and enter the night drive.
+
+- `src/project-content.js`: editable collection, route or mission content.
+- `src/project.js`: project sections and functional visitor interactions.
+- `src/project.css`: responsive editorial layouts.
+
+All mission/route settings are explicitly conceptual. FORME contains digital works, not physical editions. Export actions create local JSON files; the collection uses browser local storage. No accounts or server-side submission are required.
